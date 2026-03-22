@@ -1,0 +1,15 @@
+{
+  "name": "website-trust-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "description": "Full-stack website trust analyzer with React, Vite, Tailwind CSS, Framer Motion, Node.js, and Express",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node scripts/dev-runner.cjs",
+    "client:dev": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "server:dev": "npm run dev --prefix server",
+    "server:start": "npm start --prefix server"
+  }
+}
